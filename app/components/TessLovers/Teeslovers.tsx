@@ -1,5 +1,4 @@
 import Image from "next/image"
-import ArrowRightAltOutlinedIcon from '@mui/icons-material/ArrowRightAltOutlined';
 import EastOutlinedIcon from '@mui/icons-material/EastOutlined';
 import WestOutlinedIcon from '@mui/icons-material/WestOutlined';
 

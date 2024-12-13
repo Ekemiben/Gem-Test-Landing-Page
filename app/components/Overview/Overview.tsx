@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
-import Tabs from '@mui/material/Tabs';
+
 import Tab from '@mui/material/Tab';
-import { TabContext, TabList, TabPanel } from '@mui/lab'; // Corrected import from @mui/lab
+import { TabContext, TabList } from '@mui/lab'; // Corrected import from @mui/lab
 import Image from 'next/image';
 
 const Overview = () => {
