@@ -5,7 +5,7 @@ import Question from "../components/Question/Question";
 import Teeslovers from "../components/TessLovers/Teeslovers";
 
 export default function LandingLayout({
-  // children,
+  
 }: Readonly<{
   children: React.ReactNode;
 }>) {
