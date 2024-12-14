@@ -5,7 +5,7 @@ import WestOutlinedIcon from '@mui/icons-material/WestOutlined';
 const Teeslovers = () => {
     return (
       <>
-      <div className='flex flex-col items-center justify-center mt-12 h-[837px] w-[1440px] bg-white  border-2 border-green-600'>
+      <div className='flex flex-col items-center justify-center mt-12 h-[837px] w-[1440px] bg-white  '>
           <div className=" flex flex-col items-center justify-center ">
               <p className="font-DM_Serif_Display items-center text-4xl leading-10 font-normal">From Our Hoodie & Tees Lovers</p>
               <p>What customers have been saying!</p>

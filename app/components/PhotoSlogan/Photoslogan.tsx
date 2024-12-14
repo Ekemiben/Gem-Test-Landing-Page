@@ -7,9 +7,9 @@ const Photoslogan = () => {
   return (
     <>
           
-          <div className=' w-[1440px] flex  justify-evenly m-12 sm:flex flex-wrap'>
+          <div className=' w-[1440px] h-[1341px] flex  justify-evenly  sm:flex flex-wrap '>
               {/* <h1>Upper components</h1> */}
-              <div className='w-[570px] h-[572px] flex flex-row justify-between'>
+              <div className='w-[570px] h-[572px] flex flex-row justify-between mt-8'>
                   <div className='w-[100px]'>
                       <button className='w-[100px] h-[48px] bg-slate-100 flex items-center justify-center'><Image src="/up arrow.svg" alt=""  width={30} height={30}/></button>
                       <div className=''>
@@ -134,7 +134,7 @@ const Photoslogan = () => {
 
               </div>
               {/*  */}
-              <div className='w-[538px]  border-red-600'>
+              <div className='w-[538px] h-[1197px]  border-red-600 mt-8'>
                   <div className=''>
                       <small className='flex flex-row items-center gap-2'><Image src="/Alert.svg" alt='alrt' height={10} width={10}  /><p className='text-blue-800'>Selling fast! 5 people have this in their carts</p></small>
                   </div>
@@ -212,8 +212,8 @@ const Photoslogan = () => {
                       </div>
                       {/*  */}
 
-                      <br /><br /><br />
-                      <br /><br /><br />
+                      <br /><br />
+                      
                       <div className=''>
                           <p className='font-Open_Sans text-sm leading-6 font-bold'>Perfect to</p>
                           <div className='flex flex-row items-center mt-3 gap-3'>
@@ -233,7 +233,7 @@ const Photoslogan = () => {
                           </div>
                       </div>
                       {/*  */}
-                      <br /><br /><br /><br /><br />
+                      <br /><br /><br />
                       <div>
                           <div className='flex flex-row justify-between'>
                               <div className=' flex flex-row items-center justify-evenly border-2 border-gray-200 w-[191px] h-[64px] rounded-md' >

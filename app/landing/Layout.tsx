@@ -5,9 +5,9 @@ import Question from "../components/Question/Question";
 import Teeslovers from "../components/TessLovers/Teeslovers";
 
 export default function LandingLayout({
-  
+  children,
 }: Readonly<{
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }>) {
 
   return (
@@ -18,6 +18,7 @@ export default function LandingLayout({
       <Teeslovers />
       <Matching />
       <Question />
+      {children}
       </>
   );
 }
