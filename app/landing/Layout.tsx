@@ -1,10 +1,11 @@
 import Matching from "../components/Matching/Matching";
 import Overview from "../components/Overview/Overview";
 import Photoslogan from "../components/PhotoSlogan/Photoslogan";
+import Question from "../components/Question/Question";
 import Teeslovers from "../components/TessLovers/Teeslovers";
 
 export default function LandingLayout({
-  children,
+  // children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -16,6 +17,7 @@ export default function LandingLayout({
       <Overview />
       <Teeslovers />
       <Matching />
+      <Question />
       </>
   );
 }
