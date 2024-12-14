@@ -13,7 +13,7 @@ const Photoslogan = () => {
                   <div className='w-[100px]'>
                       <button className='w-[100px] h-[48px] bg-slate-100 flex items-center justify-center'><Image src="/up arrow.svg" alt=""  width={30} height={30}/></button>
                       <div className=''>
-                          <div className='left-img-one'><Image src="/main-clothe.svg" alt=''  width={100} height={100} /></div>
+                          <div className='left-img-one'><Image src="/Main-clothe-big.svg" alt=''  width={100} height={100} /></div>
                           <div className='img-color'>
                               <p className='p-sem-txt'>COLOR</p>
                               <hr></hr>

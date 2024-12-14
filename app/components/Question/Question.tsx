@@ -7,13 +7,13 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Question = () => {
   return (
-      <div className=' flex bg-slate-100 flex-row justify-around w-[1440px] h-[704px]'>
-         <div className='w-[1170px] h-[560px] flex flex-row justify-center items-center'>
-          <div className='flex justify-center items-center'>
-              <p>Frequently Asked Questions</p>
-              <p>If you haven’t found the answer you need, email us at <span>gemcustom@gmail.com!</span> </p>
+      <div className=' flex bg-slate-100 flex-row justify-around items-center w-[1440px] h-[704px]'>
+         <div className='w-[1170px] h-[560px] flex flex-row justify-between  '>
+          <div className='flex flex-col w-[570px] h-[118px] '>
+              <p className='font-DM_Serif_Display text-4xl leading-10'>Frequently Asked Questions</p>
+              <p className='text-base font-Open_Sans font-normal text-slate-600 w-[300px]'>If you haven’t found the answer you need, email us at <span className='font-bold'>gemcustom@gmail.com!</span> </p>
           </div>
-          <div className='flex flex-col'>
+          <div className='flex flex-col w-[538px] h-[560px]  border-red-500'>
            <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -38,32 +38,44 @@ const Question = () => {
          <p></p>
         </AccordionDetails>
       </Accordion>
-      <Accordion defaultExpanded>
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel3-content"
-          id="panel3-header"
+          aria-controls="panel2-content"
+          id="panel2-header"
         >
           <p>Can I cancel my order if I change my mind?</p>
         </AccordionSummary>
         <AccordionDetails>
          <p></p>
         </AccordionDetails>
-         <AccordionSummary
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
+          aria-controls="panel2-content"
+          id="panel2-header"
         >
-         <p>How do I track my order?</p> 
-              </AccordionSummary>
-              <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
-        >
-         <p>How long before I get my return refund?</p> 
+          <p>How do I track my order?</p>
         </AccordionSummary>
-              </Accordion>
+        <AccordionDetails>
+         <p></p>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <p>How long before I get my return refund?</p>
+        </AccordionSummary>
+        <AccordionDetails>
+         <p></p>
+        </AccordionDetails>
+      </Accordion>
+      
+    
             </div>
         </div>
     </div>

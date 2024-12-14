@@ -1,4 +1,6 @@
+import Footer from "../components/Footer/Footer";
 import Matching from "../components/Matching/Matching";
+import Nextone from "../components/NextOne/Nextone";
 import Overview from "../components/Overview/Overview";
 import Photoslogan from "../components/PhotoSlogan/Photoslogan";
 import Question from "../components/Question/Question";
@@ -18,6 +20,8 @@ export default function LandingLayout({
       <Teeslovers />
       <Matching />
       <Question />
+      <Nextone />
+      <Footer />
       {children}
       </>
   );
