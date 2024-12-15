@@ -28,7 +28,7 @@ const Photoslogan = () => {
                                    </div>   
                                   <div className="flex flex-col justify-center items-center">
                                   <p className='p-txt'>Blue</p>
-                                      <Image src="/blue-clothe-2.svg" alt='' width={30} height={30} />
+                                      <Image src="/Blue-clothe-2.svg" alt='' width={30} height={30} />
                                    </div>   
                                   <div className="flex flex-col justify-center items-center">
                                   <p className='p-txt'>Light Blue</p>
@@ -129,7 +129,7 @@ const Photoslogan = () => {
                   </div>
                   {/* Big clothe */}
                   <div className='bg-slate-100 w-[454px] h-[546px]'>
-                      <Image src='/main-clothe-big.svg'alt='' width={500} height={500} />
+                      <Image src='/Main-clothe-big.svg'alt='' width={500} height={500} />
                   </div>
 
               </div>

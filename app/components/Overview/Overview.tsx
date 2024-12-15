@@ -75,7 +75,7 @@ const Overview = () => {
 
           </div>
           <div className='w-[200px] h-[270px] flex flex-col justify-center items-center '>
-            <Image src="/Shipping.svg" alt="" width={70} height={70} />
+            <Image src="/shipping.svg" alt="" width={70} height={70} />
             
             <p className='font-Open_Sans font-bold leading-6 text-base text-justify mt-3'>Free Delivery</p>
             <p className=' flex items-center leading-6 font-Open_Sans font-normal text-center p-2'>Spend from $50 to get free shipping worldwide with 24/7 order tracking.</p>

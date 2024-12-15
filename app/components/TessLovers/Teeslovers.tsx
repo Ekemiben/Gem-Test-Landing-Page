@@ -46,7 +46,7 @@ const Teeslovers = () => {
                     </div>
                     {/*  */}
                     <div className="flex w-[35%]">
-                            <Image src="/Product Image.svg" alt="Potraite" height={320} width={320} />
+                            <Image src="/product-image.svg" alt="Potraite" height={320} width={320} />
                         
                         </div> 
                       
